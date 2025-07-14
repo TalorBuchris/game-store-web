@@ -1,0 +1,38 @@
+/* טופס עדכון מוצר */
+.formUpdateToySize{
+    margin: 2vw auto;
+    height: 70vh;
+    width: 38vw;
+}
+.formUpdateToy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.oneLine, .inpUpdateLarge, #headingFormUpdateToy, #headingFormAddToy, .buttonsFormUpdate{
+    margin: 25px;
+}
+.oneLine{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.inpUpdateSmall{
+    width: 48%;
+}
+.inpUpdateLarge{
+    width: 90%;
+}
+.muirtl-g58kis-MuiInputBase-root-MuiOutlinedInput-root {
+    width: 15vw;
+    max-width: 100%;
+}
+.buttonsFormUpdate{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btnFormUpdate{
+    width: 30%;
+}

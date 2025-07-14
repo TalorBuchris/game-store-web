@@ -1,0 +1,70 @@
+.requiredField{
+    color: red;
+}
+.oneProd{
+    border: 2px solid rgb(109, 59, 2);
+    margin: 1vw;
+    border-radius: 25px;
+    width: 15vw;
+    background-color: white;
+}
+.imageToy{
+    width: 13vw;
+}
+.activ{
+    background-color: pink;
+}
+.btnGroup, #btnGroup{
+    margin: 20px;
+}
+.btnAddToCart{
+    margin: 10px;
+    padding: 7px;
+}
+#toysList{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.aaa{
+    width: 7vw;
+}
+/* nav bar - סרגל */
+/* #navBar{
+    position: sticky;
+    top: 1rem;
+} */
+#bar{
+    display: flex;
+}
+#nav{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 5vw;
+}
+.n, .n:hover, .n:active, .n:link, .n:visited{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin-left: 2vw;
+}
+#helloUser{
+    position: relative;
+    right: 57vw;
+}
+.muirtl-1c5o7vy-MuiPagination-ul{
+    display: flex;
+    justify-content: center;
+}
+.css-1miy0lu-MuiTypography-root{
+    display: flex
+}
+.allBtn{
+    margin-right: 20px;
+}

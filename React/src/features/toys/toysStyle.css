@@ -1,0 +1,53 @@
+/* טופס עדכון מוצר */
+#updateToy{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.452);
+    z-index: 1;
+}
+.formUpdateToySize{
+    margin: 2vw auto;
+    height: 70vh;
+    width: 38vw;
+}
+.formUpdateToy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.oneLine, .inpUpdateLarge, #headingFormUpdateToy, #headingFormAddToy, .buttonsFormUpdate{
+    margin: 25px;
+}
+.oneLine{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.inpUpdateSmall{
+    width: 48%;
+}
+.inpUpdateLarge{
+    width: 90%;
+}
+.muirtl-g58kis-MuiInputBase-root-MuiOutlinedInput-root {
+    width: 15vw;
+    max-width: 100%;
+}
+.buttonsFormUpdate{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btnFormUpdate{
+    width: 30%;
+}
+.muirtl-10o2lyd-MuiStack-root{
+    padding-top: 0px;
+}
